@@ -1,22 +1,23 @@
-##TO ACCESS THE "V-SEM CSE-2 Attendance" file please send a request to access it. It hasn't been uploaded for privacy##
-https://docs.google.com/spreadsheets/d/14xYkrpZ-IqC7VWssLItvTFOMl-BOEI92hOvUm1kP330/edit?usp=sharing
+## TO ACCESS THE "V-SEM CSE-2 Attendance" file please send a request to access it. It hasn't been uploaded for privacy ##
+>https://docs.google.com/spreadsheets/d/14xYkrpZ-IqC7VWssLItvTFOMl-BOEI92hOvUm1kP330/edit?usp=sharing
 > When downloading, please download in .csv format
 
 >Just clicking attendance.py file will run it. It can also be run from command prompt
 ```bash
 $ python attendance.py
-
-##REQUIREMENTS## 
+```
+## REQUIREMENTS ## 
 -[Python 3.7 or any later version]
 -[Pandas]
   -If Pandas isn't already installed, just run the folloeing code after installing Python
   ```bash
-  $ pip install pandas
+  $ pip install 
+  ```
 - ['meetingsAttendanceList' and the class attendance list must be in CSV Format
   - After downloading the list from Microsoft Teams, please open the'meetingsAttendanceList' file and save as CSV. Otherwise, the code will not work.
 
 
-##OTHER GUIDELINES##
+## OTHER GUIDELINES ##
 >Please Request the class to join the meeting with their college assigned email IDs or to join with the same display name.
 >The code works 100% if the names the participants used to access the meeting matches their name in "V-SEM CSE-2 Attendance" file.
 >I have matched the names of all CSE2 students to their display names given by the college admin, i.e., ugsXXXXX_cse.XXXXX@cbit.org.in in the spreadsheet
