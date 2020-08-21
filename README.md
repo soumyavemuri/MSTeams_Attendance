@@ -1,6 +1,6 @@
 ## TO ACCESS THE "V-SEM CSE-2 Attendance" file please send a request to access it. It hasn't been uploaded for privacy ##
->https://docs.google.com/spreadsheets/d/14xYkrpZ-IqC7VWssLItvTFOMl-BOEI92hOvUm1kP330/edit?usp=sharing
-> When downloading, please download in .csv format
+-https://docs.google.com/spreadsheets/d/14xYkrpZ-IqC7VWssLItvTFOMl-BOEI92hOvUm1kP330/edit?usp=sharing
+>When downloading, please download in .csv format
 
 >Just clicking attendance.py file will run it. It can also be run from command prompt
 ```bash
