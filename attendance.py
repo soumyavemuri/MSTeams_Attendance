@@ -35,9 +35,9 @@ df1.to_csv('Attendance.csv')
 with open('Left.txt','w') as outfile:
     left.to_string(outfile)
 
-with open('Present Today.txt','w') as outfile:
+with open('Present_Today.txt','w') as outfile:
     present.to_string(outfile)
 
-with open('Unidentified Participants.txt','w') as f:
+with open('Unidentified_Participants.txt','w') as f:
     for item in others:
         f.write("%s\n" % item)
