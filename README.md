@@ -1,20 +1,19 @@
-##### TO ACCESS THE "V-SEM CSE-2 Attendance" file please send a request to access it. It hasn't been uploaded to maintain privacy. #####
--https://docs.google.com/spreadsheets/d/14xYkrpZ-IqC7VWssLItvTFOMl-BOEI92hOvUm1kP330/edit?usp=sharing
->When downloading, please download in .csv format
-
+### REQUIREMENTS ###
+- [Python 3.7 or any later version]
+- [Pandas]
+  - If Pandas isn't already installed, just run the following code after installing Python
+    ```bash
+    $ pip install pandas
+    ```
+- ['meetingsAttendanceList' and the class attendance list must be in CSV Format
+  - After downloading the list from Microsoft Teams, please open the'meetingsAttendanceList' file and save as CSV. Otherwise, the code will not work.
+  
 >Just clicking attendance.py file will run it. It can also be run from command prompt
 ```bash
 $ python attendance.py
 ```
-### REQUIREMENTS ###
-- [Python 3.7 or any later version]
-- [Pandas]
-  - If Pandas isn't already installed, just run the folloeing code after installing Python
-    ```bash
-    $ pip install 
-    ```
-- ['meetingsAttendanceList' and the class attendance list must be in CSV Format
-  - After downloading the list from Microsoft Teams, please open the'meetingsAttendanceList' file and save as CSV. Otherwise, the code will not work.
+#### IMPORTANT: To test the script, add the full name of the students (exactly how their display names are in Microsoft Teams) under the "Full Name" column in Attendance.csv ####
+
 
 
 ### OTHER GUIDELINES ###
@@ -28,3 +27,12 @@ $ python attendance.py
 - 'Present.txt' file contains a list of all students (excluding unidentified users) Present today
 - 'Unidentified Participants', 'Left' and 'Present' are erased and updated everytime attendance.py is run
 - If the date in the C2 file appears as ######, expand/increase its width to see the date
+
+
+
+
+
+
+##### TO ACCESS THE "V-SEM CSE-2 Attendance" file please send a request to access it. It hasn't been uploaded to maintain privacy. #####
+-https://docs.google.com/spreadsheets/d/14xYkrpZ-IqC7VWssLItvTFOMl-BOEI92hOvUm1kP330/edit?usp=sharing
+>When downloading, please download in .csv format
