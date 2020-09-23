@@ -5,9 +5,8 @@ from datetime import date
 # Microsoft Teams' participant list is saved as "meetingAttendanceList.csv"
 # please open the meeting AttendanceList file and save as csv and
 # the file name matches with attendance.csv
-df = pd.read_csv('meetingAttendanceList.csv',index_col=0)
+df = pd.read_csv('meetingAttendanceList.csv', index_col=0,encoding='utf-16',sep = "\t")
 df.index.name = None
-
 
 left = df[df['User Action']=='Left']
 df = df[~df.index.duplicated(keep='first')]
