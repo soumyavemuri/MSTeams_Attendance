@@ -5,8 +5,8 @@
     ```bash
     $ pip install pandas
     ```
-- ['meetingsAttendanceList' and the class attendance list must be in CSV Format
-  - After downloading the list from Microsoft Teams, make sure the name is meetingAttendanceList
+- ['meetingsAttendanceList'] must be in CSV Format
+  - After downloading the list from Microsoft Teams, make sure the name is meetingAttendanceList, no further changes need to be made to the file.
   
 >Just clicking attendance.py file will run it. It can also be run from command prompt
 ```bash
